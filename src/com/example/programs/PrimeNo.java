@@ -1,8 +1,8 @@
 package com.example.programs;
 
-import java.util.*;
+import java.util.Scanner;
 
-class PrimeNo {
+public class PrimeNo {
 	public static void main(String args[]) {
 		int no, temp = 0;
 		Scanner sc = new Scanner(System.in);
@@ -19,4 +19,6 @@ class PrimeNo {
 			System.out.println("Number is prime");
 		}
 	}
+	
+
 }

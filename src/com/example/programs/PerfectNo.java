@@ -1,8 +1,8 @@
 package com.example.programs;
 
-import java.util.*;
+import java.util.Scanner;
 
-class PerfectNo {
+public class PerfectNo {
 	public static void main(String args[]) {
 		int n, sum = 0;
 		Scanner sc = new Scanner(System.in);
@@ -24,4 +24,5 @@ class PerfectNo {
 	int divisor(int x) {
 		return x;
 	}
+
 }

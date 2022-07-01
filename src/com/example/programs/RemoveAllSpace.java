@@ -1,6 +1,6 @@
 package com.example.programs;
 
-class RemoveAllSpace {
+public class RemoveAllSpace {
 	public static void main(String args[]) {
 		String str = "Precaution is better than safety";
 		String noSpaceStr = str.replaceAll("\\s", " ");
@@ -15,4 +15,5 @@ class RemoveAllSpace {
 		String noSpaceStr2 = stringBuffer.toString();
 		System.out.println(noSpaceStr2);
 	}
+
 }

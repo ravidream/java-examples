@@ -1,8 +1,8 @@
 package com.example.programs;
 
-import java.util.*;
+import java.util.Scanner;
 
-class ReverseString {
+public class ReverseString {
 	public static void main(String args[]) {
 		String original, reverse = "";
 		Scanner sc = new Scanner(System.in);
@@ -14,4 +14,5 @@ class ReverseString {
 		}
 		System.out.println("Result : " + reverse);
 	}
+
 }

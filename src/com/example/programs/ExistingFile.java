@@ -5,7 +5,7 @@ import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.nio.file.StandardOpenOption;
 
-class ExistingFile {
+public class ExistingFile {
 	public static void main(String args[]) {
 		String path = System.getProperty("user.dir") + "\\test.txt";
 		String text = "Added";
@@ -15,4 +15,5 @@ class ExistingFile {
 
 		}
 	}
+
 }

@@ -1,12 +1,6 @@
 package com.example.programs;
 
-/**
- * 
- * @author ravid
- *
- */
-
-class CompoundIntrest {
+public class CompoundIntrest {
 	public static void main(String args[]) {
 		double amount = 0, principle = 1000, rate = 10, time = 3, ci;
 
@@ -24,4 +18,5 @@ class CompoundIntrest {
 
 		System.out.println("Compound intrest : " + ci);
 	}
+
 }

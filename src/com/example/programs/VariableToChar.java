@@ -1,9 +1,14 @@
 package com.example.programs;
 
-class VariableToChar {
+import java.util.Scanner;
+
+public class VariableToChar {
 	public static void main(String args[]) {
-		int a = 65;
+		Scanner sc =new Scanner(System.in);
+		System.out.println("Enter any numerical value");
+		int a=sc.nextInt();
 		char c = (char) a;
-		System.out.println(c);
+		System.out.println("the character value corrosponding to numerical value is "+c);
 	}
+
 }

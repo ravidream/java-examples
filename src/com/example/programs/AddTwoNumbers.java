@@ -1,10 +1,8 @@
-//Java Program to Add Two Integers
-
 package com.example.programs;
 
-import java.util.*;
+import java.util.Scanner;
 
-class AddTwoNumbers {
+public class AddTwoNumbers {
 	public static void main(String args[]) {
 		int a, b, sum;
 		Scanner sc = new Scanner(System.in);
@@ -15,4 +13,5 @@ class AddTwoNumbers {
 		sum = a + b;
 		System.out.println("Result : " + sum);
 	}
+
 }

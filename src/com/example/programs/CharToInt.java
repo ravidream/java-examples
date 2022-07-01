@@ -1,11 +1,6 @@
 package com.example.programs;
 
-/**
- * 
- * @author ravid
- *
- */
-class CharToInt {
+public class CharToInt {
 	public static void main(String args[]) {
 		char c = 'a';
 		char c2 = '1';
@@ -14,4 +9,5 @@ class CharToInt {
 		System.out.println(a);
 		System.out.println(b);
 	}
+
 }

@@ -1,8 +1,8 @@
 package com.example.programs;
 
-import java.util.*;
+import java.util.Scanner;
 
-class PalindromNo {
+public class PalindromNo {
 	public static void main(String args[]) {
 		int r, sum = 0, n, temp;
 		Scanner sc = new Scanner(System.in);
@@ -21,4 +21,5 @@ class PalindromNo {
 		else
 			System.out.println("Not Palindrom");
 	}
+
 }

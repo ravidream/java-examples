@@ -1,6 +1,6 @@
 package com.example.programs;
 
-class LexicographicalOrder {
+public class LexicographicalOrder {
 	public static void main(String args[]) {
 		String[] words = { "Spinch", "Origano", "Tamorind", "Avocado", "plum" };
 		for (int i = 0; i < 3; i++) {
@@ -17,4 +17,5 @@ class LexicographicalOrder {
 			System.out.println(words[i]);
 		}
 	}
+
 }

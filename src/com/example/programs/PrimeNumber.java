@@ -1,7 +1,8 @@
+package com.example.programs;
+
 import java.util.Scanner;
 
 public class PrimeNumber {
-
 	public static void main(String[] args) {
 		Scanner s =new Scanner(System.in);
 		int flag=0;
@@ -28,4 +29,5 @@ public class PrimeNumber {
 		}	
 		
 	}
+
 }

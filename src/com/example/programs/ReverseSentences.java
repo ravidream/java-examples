@@ -1,6 +1,6 @@
 package com.example.programs;
 
-class ReverseSentences {
+public class ReverseSentences {
 	public static void main(String args[]) {
 		String sentences = "Flying Aeroplane";
 		String reversed = reverse(sentences);
@@ -12,4 +12,5 @@ class ReverseSentences {
 			return sentences;
 		return reverse(sentences.substring(1)) + sentences.charAt(0);
 	}
+
 }

@@ -1,8 +1,8 @@
 package com.example.programs;
 
-import java.util.*;
+import java.util.Scanner;
 
-class SwapNoUsingTempVar {
+public class SwapNoUsingTempVar {
 	public static void main(String args[]) {
 		int firstNo, secondNo, temp;
 		Scanner sc = new Scanner(System.in);
@@ -16,4 +16,5 @@ class SwapNoUsingTempVar {
 		System.out.println("After swapping : " + firstNo + " " + secondNo);
 		System.out.println();
 	}
+
 }

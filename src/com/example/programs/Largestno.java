@@ -1,8 +1,8 @@
 package com.example.programs;
 
-import java.util.*;
+import java.util.Scanner;
 
-class Largestno {
+public class Largestno {
 	public static void main(String args[]) {
 		int firstNo, secondNo, thirdNo;
 		Scanner sc = new Scanner(System.in);
@@ -20,4 +20,5 @@ class Largestno {
 			System.out.println("Largest no is : " + thirdNo);
 		}
 	}
+
 }

@@ -1,9 +1,8 @@
-package first15;
+package com.example.programs;
 
 import java.util.Scanner;
 
 public class EvenOddNumber {
-
 	public static void main(String[] args) {
 		Scanner s =new Scanner(System.in);
 		int a= s.nextInt();

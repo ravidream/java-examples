@@ -1,8 +1,8 @@
 package com.example.programs;
 
-import java.util.*;
+import java.util.Scanner;
 
-class RoundNumberDecimal {
+public class RoundNumberDecimal {
 	public static void main(String args[]) {
 		double num;
 		Scanner sc = new Scanner(System.in);
@@ -10,4 +10,5 @@ class RoundNumberDecimal {
 		num = sc.nextDouble();
 		System.out.format("%.4f", num);
 	}
+
 }

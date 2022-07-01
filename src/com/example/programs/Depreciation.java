@@ -1,6 +1,6 @@
 package com.example.programs;
 
-class Depreciation {
+public class Depreciation {
 	public static void main(String args[]) {
 		long amount, deppercent, year, afterdep, temp;
 		amount = 100000;
@@ -10,4 +10,5 @@ class Depreciation {
 		for (int i = 0; i < year; i++)
 			System.out.println("After depreciation : " + temp);
 	}
+
 }

@@ -1,10 +1,8 @@
 package com.example.programs;
 
 import java.util.Scanner;
-import java.lang.Math;
 
 public class Lcm {
-
 	public static void main(String[] args) {
 		Scanner s = new Scanner(System.in);
 		int x = 1;

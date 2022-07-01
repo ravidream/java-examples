@@ -1,8 +1,8 @@
 package com.example.programs;
 
-import java.util.*;
+import java.util.Scanner;
 
-class FibonnacciSeries {
+public class FibonnacciSeries {
 	public static void main(String args[]) {
 		int n, n1 = 0, n2 = 0, sum = 1;
 		Scanner sc = new Scanner(System.in);
@@ -15,4 +15,5 @@ class FibonnacciSeries {
 			System.out.println(n1 + " ");
 		}
 	}
+
 }

@@ -1,9 +1,8 @@
 package com.example.programs;
 
 import java.io.File;
-import java.util.*;
 
-class ListFileDirectory {
+public class ListFileDirectory {
 	public static void main(String args[]) {
 		File dir = new File("C:\\");
 		String[] children = dir.list();
@@ -17,4 +16,5 @@ class ListFileDirectory {
 			}
 		}
 	}
+
 }

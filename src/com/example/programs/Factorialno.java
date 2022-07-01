@@ -1,8 +1,8 @@
 package com.example.programs;
 
-import java.util.*;
+import java.util.Scanner;
 
-class Factorialno {
+public class Factorialno {
 	public static void main(String args[]) {
 		int i, mul = 1, n;
 		Scanner sc = new Scanner(System.in);
@@ -13,4 +13,5 @@ class Factorialno {
 		}
 		System.out.println("Result of Factorial : " + mul);
 	}
+
 }

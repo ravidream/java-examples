@@ -1,3 +1,5 @@
+package com.example.programs;
+
 import java.util.Scanner;
 
 public class DisplayPrimeBetweenIntervels {

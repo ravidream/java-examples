@@ -1,6 +1,6 @@
 package com.example.programs;
 
-class ReverseString2 {
+public class ReverseString2 {
 	public static void main(String args[]) {
 		String name = "Ravi";
 		int length = name.length();
@@ -10,4 +10,5 @@ class ReverseString2 {
 		}
 		System.out.println("Result : " + rev);
 	}
+
 }

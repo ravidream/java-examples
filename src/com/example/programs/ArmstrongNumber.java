@@ -1,7 +1,8 @@
+package com.example.programs;
+
 import java.util.Scanner;
 
 public class ArmstrongNumber {
-
 	public static void main(String[] args) {
 		Scanner s =new Scanner(System.in);
 		int sum=0;
@@ -17,7 +18,7 @@ public class ArmstrongNumber {
 			if(num==0) {
 				break;
 			}
-		}System.out.println(sum);
+		}
 		if (n==sum) {
 			System.out.println("This is Armstong Number ");	
 		}
@@ -28,6 +29,4 @@ public class ArmstrongNumber {
 		
 	}
 
-	}
-
-
+}

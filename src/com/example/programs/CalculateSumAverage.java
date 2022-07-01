@@ -1,8 +1,8 @@
 package com.example.programs;
 
-import java.util.*;
+import java.util.Scanner;
 
-class CalculateSumAverage {
+public class CalculateSumAverage {
 	public static void main(String args[]) {
 		int n, sum = 0;
 		float average;
@@ -20,4 +20,5 @@ class CalculateSumAverage {
 		average = (float) sum / n;
 		System.out.println("Average : " + average);
 	}
+
 }

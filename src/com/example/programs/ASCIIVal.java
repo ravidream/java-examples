@@ -3,7 +3,6 @@ package com.example.programs;
 import java.util.Scanner;
 
 public class ASCIIVal {
-
 	public static void main(String[] args) {
 
 		Scanner s = new Scanner(System.in);

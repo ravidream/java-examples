@@ -1,8 +1,8 @@
 package com.example.programs;
 
-import java.util.*;
+import java.util.Scanner;
 
-class AddDigits {
+public class AddDigits {
 	public static void main(String args[]) {
 		int n, s = 0, r;
 		Scanner sc = new Scanner(System.in);
@@ -15,4 +15,5 @@ class AddDigits {
 		}
 		System.out.println("Result : " + s);
 	}
+
 }
