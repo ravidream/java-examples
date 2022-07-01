@@ -1,8 +1,8 @@
 package com.example.programs;
 
-import java.util.*;
+import java.util.Scanner;
 
-class QuadraticEquation {
+public class QuadraticEquation {
 	public static void main(String args[]) {
 		double a, b, c;
 		double root1 = 0, root2 = 0, imaginary, discriminant;
@@ -26,4 +26,5 @@ class QuadraticEquation {
 					+ root2 + " - " + imaginary);
 		}
 	}
+
 }

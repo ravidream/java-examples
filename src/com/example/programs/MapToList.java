@@ -1,8 +1,11 @@
 package com.example.programs;
 
-import java.util.*;
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
 
-class MapToList {
+public class MapToList {
 	public static void main(String args[]) {
 		Map<Integer, String> map = new HashMap<>();
 		map.put(1, "a");
@@ -18,4 +21,5 @@ class MapToList {
 		System.out.println("Key List : " + keyList);
 		System.out.println("value List : " + valueList);
 	}
+
 }

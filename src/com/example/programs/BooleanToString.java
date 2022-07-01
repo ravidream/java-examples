@@ -1,6 +1,6 @@
 package com.example.programs;
 
-class BooleanToString {
+public class BooleanToString {
 	public static void main(String args[]) {
 		boolean b1 = true;
 		boolean b2 = false;
@@ -9,4 +9,5 @@ class BooleanToString {
 		System.out.println(s1);
 		System.out.println(s2);
 	}
+
 }

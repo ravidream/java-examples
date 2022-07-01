@@ -1,8 +1,8 @@
 package com.example.programs;
 
-import java.util.*;
+import java.util.Scanner;
 
-class StandardDeviation {
+public class StandardDeviation {
 	public static void main(String args[]) {
 		int numb;
 		Scanner sc = new Scanner(System.in);
@@ -19,10 +19,13 @@ class StandardDeviation {
 		System.out.println("Mean:" + mean);
 		sum = 0;
 		for (int i = 0; i < n; i++) {
+			
+			
 			sum += Math.pow((input[i] - mean), 2);
 		}
 		mean = sum / (n - 1);
 		double deviation = Math.sqrt(mean);
 		System.out.println("standard deviation :" + deviation);
 	}
+
 }

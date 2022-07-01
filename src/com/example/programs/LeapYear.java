@@ -1,10 +1,8 @@
-package  com.example.programs;
-
+package com.example.programs;
 
 import java.util.Scanner;
 
 public class LeapYear {
-
 	public static void main(String[] args) {
 		Scanner s =new Scanner(System.in);
 		System.out.println("Enter the  Year in YYYY format : ");

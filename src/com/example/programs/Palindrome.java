@@ -1,7 +1,8 @@
+package com.example.programs;
+
 import java.util.Scanner;
 
 public class Palindrome {
-
 	public static void main(String[] args) {
 		Scanner s =new Scanner(System.in);
 		int sum=0;
@@ -19,7 +20,7 @@ public class Palindrome {
 			}
 		}System.out.println(sum);
 		if (n==sum) {
-			System.out.println("palindrome");	
+			System.out.println("Palindrome");	
 		}
 		else {
 				System.out.println("Not palindrome");	
@@ -27,6 +28,5 @@ public class Palindrome {
 		
 		
 	}
-	}
 
-
+}

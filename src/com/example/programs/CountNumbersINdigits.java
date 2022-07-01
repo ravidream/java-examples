@@ -1,7 +1,8 @@
+package com.example.programs;
+
 import java.util.Scanner;
 
 public class CountNumbersINdigits {
-
 	public static void main(String[] args) {
 		Scanner s =new Scanner(System.in);
 		int x =0; // digits

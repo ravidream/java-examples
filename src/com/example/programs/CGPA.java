@@ -1,13 +1,7 @@
 package com.example.programs;
 
-/**
- * 
- * @author ravid
- *
- */
-
-class CGPA {
-    public static void main(String args[]) {
+public class CGPA {
+	public static void main(String args[]) {
         int n=5;
         double m[]=new double[n];
         double g[]=new double[n];
@@ -28,4 +22,5 @@ class CGPA {
         System.out.println("cgpa : " + cgpa);
         System.out.println("Percentage from cgpa : " + cgpa * 9.5);
     }
+
 }

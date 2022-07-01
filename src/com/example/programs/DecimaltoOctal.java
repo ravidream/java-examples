@@ -1,8 +1,8 @@
 package com.example.programs;
 
-import java.util.*;
+import java.util.Scanner;
 
-class DecimaltoOctal {
+public class DecimaltoOctal {
 	static int i = 1;
 
 	public static void main(String args[]) {
@@ -26,4 +26,5 @@ class DecimaltoOctal {
 		}
 		return a;
 	}
+
 }

@@ -1,11 +1,5 @@
 package com.example.programs;
 
-/**
- * 
- * @author ravid
- *
- */
-
 public class CompareStringEqualsMethod {
 	public static void main(String args[]) {
 		String str = new String("Bold");
@@ -16,4 +10,5 @@ public class CompareStringEqualsMethod {
 		else
 			System.out.println("Not equal");
 	}
+
 }

@@ -1,8 +1,8 @@
 package com.example.programs;
 
-import java.util.*;
+import java.util.Scanner;
 
-class FrequencyCharacterString {
+public class FrequencyCharacterString {
 	public static void main(String args[]) {
 		char character;
 		String str;
@@ -20,4 +20,5 @@ class FrequencyCharacterString {
 		}
 		System.out.println("Frequency of the given character : " + count);
 	}
+
 }

@@ -1,6 +1,8 @@
 package com.example.programs;
 
-class EnumLookup {
+import com.example.programs.EnumLookup.TextStyle;
+
+public class EnumLookup {
 	public enum TextStyle {
 		BOLD, ITALICS, UNDERLINE, STRICKTHROUGH;
 	}
@@ -13,4 +15,5 @@ class EnumLookup {
 
 		System.out.println("textStyle : " + textStyle);
 	}
+
 }

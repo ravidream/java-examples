@@ -5,7 +5,7 @@ import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 
-class FileToByteArray {
+public class FileToByteArray {
 	public static void main(String args[]) {
 
 		try {
@@ -24,4 +24,5 @@ class FileToByteArray {
 		}
 
 	}
+
 }

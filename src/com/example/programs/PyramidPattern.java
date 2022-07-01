@@ -1,6 +1,6 @@
 package com.example.programs;
 
-class PyramidPattern {
+public class PyramidPattern {
 	public static void main(String args[]) {
 		int rows = 10;
 		for (int i = 1; i <= rows; i++) {
@@ -10,4 +10,5 @@ class PyramidPattern {
 			System.out.println();
 		}
 	}
+
 }

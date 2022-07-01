@@ -1,7 +1,8 @@
+package com.example.programs;
+
 import java.util.Scanner;
 
 public class RootOFquadertic {
-
 	public static void main(String[] args) {
 		Scanner s =new Scanner(System.in);
 		int sum=0;

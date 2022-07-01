@@ -2,7 +2,7 @@ package com.example.programs;
 
 import java.io.File;
 
-class RenameFile {
+public class RenameFile {
 	public static void main(String args[]) {
 
 		File oldName = new File("C:/program.txt");
@@ -14,4 +14,5 @@ class RenameFile {
 			System.out.println("Error");
 		}
 	}
+
 }

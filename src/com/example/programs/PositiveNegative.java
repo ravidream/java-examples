@@ -1,8 +1,8 @@
 package com.example.programs;
 
-import java.util.*;
+import java.util.Scanner;
 
-class PositiveNegative {
+public class PositiveNegative {
 	public static void main(String args[]) {
 		int number;
 		Scanner sc = new Scanner(System.in);
@@ -14,4 +14,5 @@ class PositiveNegative {
 			System.out.println("No is Negative");
 		}
 	}
+
 }

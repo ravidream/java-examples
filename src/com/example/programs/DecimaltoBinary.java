@@ -1,8 +1,8 @@
 package com.example.programs;
 
-import java.util.*;
+import java.util.Scanner;
 
-class DecimaltoBinary {
+public class DecimaltoBinary {
 	public static void main(String args[]) {
 		int num;
 		Scanner sc = new Scanner(System.in);
@@ -19,4 +19,5 @@ class DecimaltoBinary {
 			System.out.println(bin[j]);
 		}
 	}
+
 }

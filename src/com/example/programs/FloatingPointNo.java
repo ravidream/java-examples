@@ -1,8 +1,8 @@
 package com.example.programs;
 
-import java.util.*;
+import java.util.Scanner;
 
-class FloatingPointNo {
+public class FloatingPointNo {
 	public static void main(String args[]) {
 		float a, b, mul;
 		Scanner sc = new Scanner(System.in);
@@ -13,4 +13,5 @@ class FloatingPointNo {
 		mul = a * b;
 		System.out.println("Result : " + mul);
 	}
+
 }

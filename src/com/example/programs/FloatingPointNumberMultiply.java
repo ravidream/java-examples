@@ -1,4 +1,4 @@
-package first15;
+package com.example.programs;
 
 import java.util.Scanner;
 
@@ -10,4 +10,5 @@ public static void main(String[] arg) {
 		float b= s.nextFloat();
 		System.out.println("Multiply Number " + ((a*b)));
 	}
+
 }

@@ -1,10 +1,10 @@
 package com.example.programs;
 
-import java.util.*;
+import java.util.Scanner;
 
-class TSAC {
+public class TSAC {
 	public static void main(String args[]) {
-		Double pi = 3.14;
+		Double pi =  3.14;
 		double R, H, tsac;
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Enter the value of radious : ");
@@ -14,4 +14,5 @@ class TSAC {
 		tsac = (2 * pi * R * H) + (2 * pi * R * R);
 		System.out.println("Result of TSAC : " + tsac);
 	}
+
 }

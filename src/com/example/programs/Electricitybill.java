@@ -1,8 +1,8 @@
 package com.example.programs;
 
-import java.util.*;
+import java.util.Scanner;
 
-class Electricitybill {
+public class Electricitybill {
 	public static void main(String args[]) {
 		long units;
 		double billpay = 0;
@@ -17,4 +17,5 @@ class Electricitybill {
 			billpay = 100 * 1.20 + 200 * 2 + (units - 300) * 3;
 		System.out.println("Bill to pay : " + billpay);
 	}
+
 }

@@ -1,8 +1,8 @@
 package com.example.programs;
 
-import java.util.*;
+import java.util.Scanner;
 
-class DistanceBetweenTwoPoints {
+public class DistanceBetweenTwoPoints {
 	public static void main(String args[]) {
 		int x1, x2, y1, y2;
 		double dis;
@@ -19,4 +19,5 @@ class DistanceBetweenTwoPoints {
 		System.out.println(
 				"Distance between two points : " + "(" + x1 + "," + y1 + ")," + "(" + x2 + "," + y2 + ")==>" + dis);
 	}
+
 }

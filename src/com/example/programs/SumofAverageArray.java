@@ -1,8 +1,8 @@
 package com.example.programs;
 
-import java.util.*;
+import java.util.Scanner;
 
-class SumofAverageArray {
+public class SumofAverageArray {
 	public static void main(String args[]) {
 		int n, sum = 0;
 		float average;
@@ -19,4 +19,5 @@ class SumofAverageArray {
 		average = (float) sum / n;
 		System.out.println("Average : " + average);
 	}
+
 }

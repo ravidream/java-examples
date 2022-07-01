@@ -1,8 +1,8 @@
-package  com.example.programs;
+package com.example.programs;
 
-import java.util.*;
+import java.util.Scanner;
 
-class QuotientReminder {
+public class QuotientReminder {
 	public static void main(String args[]) {
 		int dividend, divisor;
 		Scanner sc = new Scanner(System.in);
@@ -15,4 +15,5 @@ class QuotientReminder {
 		System.out.println("Result of Quotient : " + quotient);
 		System.out.println("Result of remainder : " + remainder);
 	}
+
 }

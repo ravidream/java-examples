@@ -1,8 +1,8 @@
 package com.example.programs;
 
-import java.util.*;
+import java.util.Scanner;
 
-class DiscountProduct {
+public class DiscountProduct {
 	public static void main(String args[]) {
 		double dis, amount, marketprice, s;
 		Scanner sc = new Scanner(System.in);
@@ -14,4 +14,5 @@ class DiscountProduct {
 		amount = (s * marketprice) / 100;
 		System.out.println("Amount after discount : " + amount);
 	}
+
 }

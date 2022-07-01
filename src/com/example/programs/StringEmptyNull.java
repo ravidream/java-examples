@@ -1,6 +1,6 @@
-package  com.example.programs;
+package com.example.programs;
 
-class StringEmptyNull {
+public class StringEmptyNull {
 	public static void main(String args[]) {
 		String str1 = null;
 		String str2 = "";
@@ -19,4 +19,5 @@ class StringEmptyNull {
 			return false;
 		return true;
 	}
+
 }

@@ -1,8 +1,8 @@
 package com.example.programs;
 
-import java.util.*;
+import java.util.Scanner;
 
-class SumOfPrimeNumbers {
+public class SumOfPrimeNumbers {
 	public static void main(String args[]) {
 		int number, x = 0;
 		Scanner sc = new Scanner(System.in);
@@ -30,4 +30,5 @@ class SumOfPrimeNumbers {
 		}
 		return c;
 	}
+
 }

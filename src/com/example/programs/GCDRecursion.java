@@ -1,8 +1,8 @@
 package com.example.programs;
 
-import java.util.*;
+import java.util.Scanner;
 
-class GCDRecursion {
+public class GCDRecursion {
 	public static void main(String args[]) {
 		int firstNum, secondNum;
 		Scanner sc = new Scanner(System.in);

@@ -1,8 +1,8 @@
 package com.example.programs;
 
-import java.util.*;
+import java.util.Scanner;
 
-class CurvedSurfaceAreaOfCube {
+public class CurvedSurfaceAreaOfCube {
 	public static void main(String args[]) {
 		double side;
 		Scanner sc = new Scanner(System.in);
@@ -11,4 +11,5 @@ class CurvedSurfaceAreaOfCube {
 		double surfaceAread = 4 * side * side;
 		System.out.println("Result of CurvedSurfaceAreaOfCube : " + surfaceAread);
 	}
+
 }

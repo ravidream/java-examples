@@ -1,9 +1,7 @@
 package com.example.programs;
 
-
-class MillisecondsEx
-{
-    public static void main(String args[])
+public class MillisecondsEx {
+public static void main(String args[])
     
     {
         long milliseconds = 1000000;
@@ -20,4 +18,5 @@ class MillisecondsEx
         System.out.println("Or");
         System.out.format("%d Milliseconds = %d seconds" ,milliseconds,seconds);
     }
+
 }

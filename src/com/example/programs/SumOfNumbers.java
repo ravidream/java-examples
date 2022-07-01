@@ -1,10 +1,10 @@
 package com.example.programs;
 
-import java.util.*;
+import java.util.Scanner;
 
-class SumOfNumbers {
+public class SumOfNumbers {
 	public static void main(String args[]) {
-		int i, n, sum = 1;
+		int i, n, sum = 0;
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Enter N number : ");
 		n = sc.nextInt();
@@ -13,4 +13,5 @@ class SumOfNumbers {
 		}
 		System.out.println("Result of N numbers is : " + sum);
 	}
+
 }

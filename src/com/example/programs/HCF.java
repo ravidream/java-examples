@@ -1,8 +1,8 @@
 package com.example.programs;
 
-import java.util.*;
+import java.util.Scanner;
 
-class HCF {
+public class HCF {
 	int temp;
 
 	int highest(int a, int b) {
@@ -26,4 +26,5 @@ class HCF {
 		n2 = sc.nextInt();
 		System.out.println("HCF of two numbers is : " + h.highest(n1, n2));
 	}
+
 }
