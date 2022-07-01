@@ -19,6 +19,5 @@ public class PrimeNo {
 			System.out.println("Number is prime");
 		}
 	}
-	
 
 }

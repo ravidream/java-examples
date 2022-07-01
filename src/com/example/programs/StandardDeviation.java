@@ -19,8 +19,7 @@ public class StandardDeviation {
 		System.out.println("Mean:" + mean);
 		sum = 0;
 		for (int i = 0; i < n; i++) {
-			
-			
+
 			sum += Math.pow((input[i] - mean), 2);
 		}
 		mean = sum / (n - 1);

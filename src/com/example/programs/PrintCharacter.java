@@ -2,7 +2,7 @@ package com.example.programs;
 
 import java.util.Scanner;
 
-public class Character {
+public class PrintCharacter {
 	public static void main(String args[]) {
 	    char ch;
 	    Scanner sc=new Scanner(System.in);

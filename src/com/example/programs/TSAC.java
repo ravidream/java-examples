@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class TSAC {
 	public static void main(String args[]) {
-		Double pi =  3.14;
+		Double pi = 3.14;
 		double R, H, tsac;
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Enter the value of radious : ");

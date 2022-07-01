@@ -2,7 +2,7 @@ package com.example.programs;
 
 import java.util.Scanner;
 
-public class Electricitybill {
+public class ElectricityBill {
 	public static void main(String args[]) {
 		long units;
 		double billpay = 0;

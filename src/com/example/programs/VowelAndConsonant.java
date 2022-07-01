@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class VowelAndConsonant {
 	public static void main(String args[]) {
 		int vCount = 0, cCount = 0;
-		Scanner sc =new Scanner(System.in);
+		Scanner sc = new Scanner(System.in);
 //		String str1 = sc.next().toString();
 		String str = "Aeroplane is Flying in the Sky";
 		str = str.toLowerCase();

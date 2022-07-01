@@ -6,7 +6,7 @@ public class SwapNoUsingTempVar {
 	public static void main(String args[]) {
 		int firstNo, secondNo, temp;
 		Scanner sc = new Scanner(System.in);
-		System.out.println("Enter the value of x and y ");
+		System.out.println("Enter the value of x and y :");
 		firstNo = sc.nextInt();
 		secondNo = sc.nextInt();
 		System.out.println("Before swapping number : " + firstNo + " " + secondNo);

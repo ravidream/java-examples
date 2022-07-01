@@ -2,7 +2,7 @@ package com.example.programs;
 
 import java.util.Scanner;
 
-public class Largestno {
+public class LargestNo {
 	public static void main(String args[]) {
 		int firstNo, secondNo, thirdNo;
 		Scanner sc = new Scanner(System.in);

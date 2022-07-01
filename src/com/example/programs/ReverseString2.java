@@ -5,7 +5,7 @@ public class ReverseString2 {
 		String name = "Ravi";
 		int length = name.length();
 		String rev = " ";
-		for (int i = 0; i <= length -1; i--) {
+		for (int i = 0; i <= length - 1; i--) {
 			rev = rev + name.charAt(i);
 		}
 		System.out.println("Result : " + rev);

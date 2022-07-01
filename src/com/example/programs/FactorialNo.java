@@ -2,7 +2,7 @@ package com.example.programs;
 
 import java.util.Scanner;
 
-public class Factorialno {
+public class FactorialNo {
 	public static void main(String args[]) {
 		int i, mul = 1, n;
 		Scanner sc = new Scanner(System.in);
